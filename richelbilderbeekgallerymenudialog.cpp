@@ -471,15 +471,6 @@ ribi::Help ribi::GalleryMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::GalleryMenuDialog::GetProgram() const noexcept
-{
-  boost::shared_ptr<const ribi::Program> p {
-    new ribi::ProgramRichelBilderbeekGallery
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::GalleryMenuDialog::GetVersion() const noexcept
 {
   return "1.0";

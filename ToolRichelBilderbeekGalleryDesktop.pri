@@ -1,10 +1,10 @@
-include(../../Tools/ToolRichelBilderbeekGallery/ToolRichelBilderbeekGalleryConsole.pri)
+include(../RichelBilderbeekGallery/ToolRichelBilderbeekGalleryConsole.pri)
 
 FORMS += \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgallerymenudialog.ui
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgallerymenudialog.ui
 
 SOURCES += \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgallerymenudialog.cpp
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgallerymenudialog.cpp
 
 HEADERS += \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgallerymenudialog.h
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgallerymenudialog.h

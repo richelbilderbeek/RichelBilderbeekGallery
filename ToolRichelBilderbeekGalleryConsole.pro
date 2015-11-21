@@ -1,11 +1,12 @@
-include(../../ConsoleApplication.pri)
-include(../../Libraries/Boost.pri)
-include(../../Libraries/GeneralConsole.pri)
+include(../RibiLibraries/ConsoleApplication.pri)
+include(../RibiLibraries/Boost.pri)
+include(../RibiLibraries/GeneralConsole.pri)
 
-include(../../Classes/CppCodeToHtml/CppCodeToHtml.pri)
-include(../../Classes/CppQrcFile/CppQrcFile.pri)
-include(../../Classes/CppQtCreatorProFile/CppQtCreatorProFile.pri)
-include(../../Projects/RichelbilderbeekNl/RichelbilderbeekNlConsole.pri);
-include(../../Tools/ToolRichelBilderbeekGallery/ToolRichelBilderbeekGalleryConsole.pri)
+include(../RibiClasses/CppContainer/CppContainer.pri)
+include(../RibiClasses/CppCodeToHtml/CppCodeToHtml.pri)
+include(../RibiClasses/CppFuzzy_equal_to/CppFuzzy_equal_to.pri)
+include(../RibiClasses/CppQrcFile/CppQrcFile.pri)
+include(../RibiClasses/CppQtCreatorProFile/CppQtCreatorProFile.pri)
+include(../RichelBilderbeekGallery/ToolRichelBilderbeekGalleryConsole.pri)
 
 SOURCES += main.cpp

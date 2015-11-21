@@ -1,15 +1,17 @@
-include(../../DesktopApplication.pri)
+include(../RibiLibraries/DesktopApplication.pri)
 
-include(../../Libraries/Boost.pri)
-include(../../Libraries/GeneralConsole.pri)
-include(../../Libraries/GeneralDesktop.pri)
+include(../RibiLibraries/Boost.pri)
+include(../RibiLibraries/GeneralConsole.pri)
+include(../RibiLibraries/GeneralDesktop.pri)
 
-include(../../Classes/CppQtRichelBilderbeekGalleryDialog/CppQtRichelBilderbeekGalleryDialog.pri)
-include(../../Classes/CppCodeToHtml/CppCodeToHtml.pri)
-include(../../Classes/CppQrcFile/CppQrcFile.pri)
-include(../../Classes/CppQtCreatorProFile/CppQtCreatorProFile.pri)
-include(../../Projects/RichelbilderbeekNl/RichelbilderbeekNlDesktop.pri)
-include(../../Tools/ToolRichelBilderbeekGallery/ToolRichelBilderbeekGalleryDesktop.pri)
+include(../RibiClasses/CppContainer/CppContainer.pri)
+include(../RibiClasses/CppFuzzy_equal_to/CppFuzzy_equal_to.pri)
+
+include(../RibiClasses/CppQtRichelBilderbeekGalleryDialog/CppQtRichelBilderbeekGalleryDialog.pri)
+include(../RibiClasses/CppCodeToHtml/CppCodeToHtml.pri)
+include(../RibiClasses/CppQrcFile/CppQrcFile.pri)
+include(../RibiClasses/CppQtCreatorProFile/CppQtCreatorProFile.pri)
+include(../RichelBilderbeekGallery/ToolRichelBilderbeekGalleryDesktop.pri)
 
 SOURCES += qtmain.cpp
 

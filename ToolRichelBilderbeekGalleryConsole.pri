@@ -1,20 +1,20 @@
 INCLUDEPATH += \
-    ../../Tools/ToolRichelBilderbeekGallery
+    ../RichelBilderbeekGallery
 
 SOURCES += \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources.cpp \
-    ../../Tools/ToolRichelBilderbeekGallery/richelbilderbeekgallerymenudialog.cpp
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources.cpp \
+    ../RichelBilderbeekGallery/richelbilderbeekgallerymenudialog.cpp
 
 HEADERS += \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources.h \
-    ../../Tools/ToolRichelBilderbeekGallery/richelbilderbeekgallerymenudialog.h
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources.h \
+    ../RichelBilderbeekGallery/richelbilderbeekgallerymenudialog.h
 
 OTHER_FILES += \
-    ../../Tools/ToolRichelBilderbeekGallery/Licence.txt
+    ../RichelBilderbeekGallery/Licence.txt
 
 RESOURCES += \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources.qrc \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_tools.qrc \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_projects.qrc \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_games.qrc \
-    ../../Tools/ToolRichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_classes.qrc
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources.qrc \
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_tools.qrc \
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_projects.qrc \
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_games.qrc \
+    ../RichelBilderbeekGallery/qtrichelbilderbeekgalleryresources_classes.qrc

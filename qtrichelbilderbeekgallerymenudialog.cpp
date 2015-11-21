@@ -38,6 +38,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include "qtrichelbilderbeekgallerymenudialog.h"
 #include "qtrichelbilderbeekgallerydialog.h"
 #include "testtimer.h"
+#include "richelbilderbeekprogramtypes.h"
 #include "richelbilderbeekgallerymenudialog.h"
 #include "trace.h"
 #include "ui_qtrichelbilderbeekgallerymenudialog.h"
@@ -156,6 +157,9 @@ void ribi::QtRichelBilderbeekGalleryMenuDialog::Test() noexcept
     static bool is_tested{false};
     if (is_tested) return;
     is_tested = true;
+  }
+  {
+    ProgramTypes();
   }
   const TestTimer test_timer(__func__,__FILE__,1.0);
   QtRichelBilderbeekGalleryDialog();
